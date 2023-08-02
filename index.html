@@ -203,11 +203,9 @@
 			<div class="popup__content">
 				<button data-close type="button" class="popup__close">&#215;</button>
 				<div class="popup__text">
-					<form method="post" id="ajax_form" action="">
-						<input type="text" name="email" data-error="Error" placeholder="E-mail" class="input">
-						
-						<input type="text" name="text" data-error="Error" placeholder="text" class="input">
-						
+					<form id="ajax_form" name="ajax_form">
+						<input type="text" class="input" name="name" placeholder="Введите ваше имя">
+						<input type="text" class="input" name="phonenumber" placeholder="Введите ваш телефон">
 						<button id="btn" class="button">Send</button>
 					</form>
 					<div id="result_form" style="color: red;"></div>
